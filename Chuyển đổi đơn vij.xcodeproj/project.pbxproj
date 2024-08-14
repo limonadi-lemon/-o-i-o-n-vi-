@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		849A6AA12C6CF0CE00277B9D /* VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A6AA02C6CF0CE00277B9D /* VC.swift */; };
 		84B3E7072C68672E00D54EBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3E7062C68672E00D54EBF /* AppDelegate.swift */; };
 		84B3E7092C68672E00D54EBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3E7082C68672E00D54EBF /* SceneDelegate.swift */; };
 		84B3E70B2C68672E00D54EBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3E70A2C68672E00D54EBF /* ViewController.swift */; };
 		84B3E70E2C68672E00D54EBF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 84B3E70D2C68672E00D54EBF /* Base */; };
 		84B3E7102C68673000D54EBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B3E70F2C68673000D54EBF /* Assets.xcassets */; };
 		84B3E7132C68673000D54EBF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 84B3E7122C68673000D54EBF /* Base */; };
-		84B3E71E2C68673100D54EBF /* Chuye__n__o__i__o_n_vijTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3E71D2C68673100D54EBF /* Chuye__n__o__i__o_n_vijTests.swift */; };
-		84B3E7282C68673100D54EBF /* Chuye__n__o__i__o_n_vijUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3E7272C68673100D54EBF /* Chuye__n__o__i__o_n_vijUITests.swift */; };
-		84B3E72A2C68673100D54EBF /* Chuye__n__o__i__o_n_vijUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3E7292C68673100D54EBF /* Chuye__n__o__i__o_n_vijUITestsLaunchTests.swift */; };
+		84B3E7392C686D8B00D54EBF /* VCDoDai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3E7382C686D8B00D54EBF /* VCDoDai.swift */; };
+		84B3E73B2C686DA400D54EBF /* VCKhoiLuong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3E73A2C686DA400D54EBF /* VCKhoiLuong.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		849A6AA02C6CF0CE00277B9D /* VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC.swift; sourceTree = "<group>"; };
 		84B3E7032C68672E00D54EBF /* Chuyển đổi đơn vij.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chuyển đổi đơn vij.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B3E7062C68672E00D54EBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B3E7082C68672E00D54EBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,10 +46,9 @@
 		84B3E7122C68673000D54EBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B3E7142C68673000D54EBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84B3E7192C68673100D54EBF /* Chuyển đổi đơn vijTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chuyển đổi đơn vijTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84B3E71D2C68673100D54EBF /* Chuye__n__o__i__o_n_vijTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chuye__n__o__i__o_n_vijTests.swift; sourceTree = "<group>"; };
 		84B3E7232C68673100D54EBF /* Chuyển đổi đơn vijUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chuyển đổi đơn vijUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84B3E7272C68673100D54EBF /* Chuye__n__o__i__o_n_vijUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chuye__n__o__i__o_n_vijUITests.swift; sourceTree = "<group>"; };
-		84B3E7292C68673100D54EBF /* Chuye__n__o__i__o_n_vijUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chuye__n__o__i__o_n_vijUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84B3E7382C686D8B00D54EBF /* VCDoDai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCDoDai.swift; sourceTree = "<group>"; };
+		84B3E73A2C686DA400D54EBF /* VCKhoiLuong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCKhoiLuong.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				84B3E7052C68672E00D54EBF /* Chuyển đổi đơn vij */,
-				84B3E71C2C68673100D54EBF /* Chuyển đổi đơn vijTests */,
-				84B3E7262C68673100D54EBF /* Chuyển đổi đơn vijUITests */,
 				84B3E7042C68672E00D54EBF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,29 +100,15 @@
 				84B3E7062C68672E00D54EBF /* AppDelegate.swift */,
 				84B3E7082C68672E00D54EBF /* SceneDelegate.swift */,
 				84B3E70A2C68672E00D54EBF /* ViewController.swift */,
+				849A6AA02C6CF0CE00277B9D /* VC.swift */,
 				84B3E70C2C68672E00D54EBF /* Main.storyboard */,
+				84B3E7382C686D8B00D54EBF /* VCDoDai.swift */,
+				84B3E73A2C686DA400D54EBF /* VCKhoiLuong.swift */,
 				84B3E70F2C68673000D54EBF /* Assets.xcassets */,
 				84B3E7112C68673000D54EBF /* LaunchScreen.storyboard */,
 				84B3E7142C68673000D54EBF /* Info.plist */,
 			);
 			path = "Chuyển đổi đơn vij";
-			sourceTree = "<group>";
-		};
-		84B3E71C2C68673100D54EBF /* Chuyển đổi đơn vijTests */ = {
-			isa = PBXGroup;
-			children = (
-				84B3E71D2C68673100D54EBF /* Chuye__n__o__i__o_n_vijTests.swift */,
-			);
-			path = "Chuyển đổi đơn vijTests";
-			sourceTree = "<group>";
-		};
-		84B3E7262C68673100D54EBF /* Chuyển đổi đơn vijUITests */ = {
-			isa = PBXGroup;
-			children = (
-				84B3E7272C68673100D54EBF /* Chuye__n__o__i__o_n_vijUITests.swift */,
-				84B3E7292C68673100D54EBF /* Chuye__n__o__i__o_n_vijUITestsLaunchTests.swift */,
-			);
-			path = "Chuyển đổi đơn vijUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +244,9 @@
 			files = (
 				84B3E70B2C68672E00D54EBF /* ViewController.swift in Sources */,
 				84B3E7072C68672E00D54EBF /* AppDelegate.swift in Sources */,
+				849A6AA12C6CF0CE00277B9D /* VC.swift in Sources */,
+				84B3E7392C686D8B00D54EBF /* VCDoDai.swift in Sources */,
+				84B3E73B2C686DA400D54EBF /* VCKhoiLuong.swift in Sources */,
 				84B3E7092C68672E00D54EBF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +255,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B3E71E2C68673100D54EBF /* Chuye__n__o__i__o_n_vijTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B3E7282C68673100D54EBF /* Chuye__n__o__i__o_n_vijUITests.swift in Sources */,
-				84B3E72A2C68673100D54EBF /* Chuye__n__o__i__o_n_vijUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
